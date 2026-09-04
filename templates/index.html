@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIIMS Nagpur - Assistant</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Markdown Parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <!-- Background Decoration Elements -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <div class="chat-container">
+        
+        <!-- Header -->
+        <header class="chat-header">
+            <div class="header-content">
+                <div class="logo-container">
+                    <i class="fa-solid fa-hospital header-icon"></i>
+                </div>
+                <div class="header-text">
+                    <h1>AIIMS Nagpur Assistant</h1>
+                    <span class="status"><span class="status-dot"></span> Online</span>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button class="icon-btn" title="Information"><i class="fa-solid fa-circle-info"></i></button>
+            </div>
+        </header>
+
+        <!-- Chat Area -->
+        <div id="chat-box" class="chat-box">
+            
+            <div class="message bot">
+                <div class="avatar"><i class="fa-solid fa-robot"></i></div>
+                <div class="message-content">
+                    <p>Namaskar! 🙏 Welcome to the AIIMS Nagpur Virtual Assistant.</p>
+                    <p>I can help you with information regarding OPD timings, departments, emergency services, and general healthcare guidance.</p>
+                    <p><i>You can ask me questions in English, Hindi, or Marathi!</i></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    placeholder="Type your question here..." 
+                    autocomplete="off"
+                >
+                <button id="send-btn" class="send-btn">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="footer-text">
+                <small>AI can make mistakes. For serious conditions, consult a real doctor.</small>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

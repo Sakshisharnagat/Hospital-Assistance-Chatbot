@@ -1,0 +1,415 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "namaste",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hello hospital",
+        "hello assistant"
+      ],
+      "responses": [
+        "Hello! 👋 Welcome to AIIMS Nagpur Hospital Assistant. How can I help you today?",
+        "Hello! I can help you with AIIMS Nagpur hospital information, departments, OPD, emergency services, appointments and patient guidance."
+      ]
+    },
+
+    {
+      "tag": "general_help",
+      "patterns": [
+        "yes",
+        "yes please",
+        "ok",
+        "okay",
+        "sure",
+        "haan",
+        "ha"
+      ],
+      "responses": [
+        "Sure! 😊 You can ask me about AIIMS Nagpur location, departments, OPD timings, emergency services, appointments, pharmacy, contact information or doctor guidance.",
+        "Of course. I can help you find the right AIIMS Nagpur department, hospital service or general information."
+      ]
+    },
+
+    {
+      "tag": "hospital_info",
+      "patterns": [
+        "tell me about aiims nagpur",
+        "what is aiims nagpur",
+        "about aiims",
+        "about aiims hospital",
+        "aiims nagpur information",
+        "hospital information",
+        "tell me about hospital"
+      ],
+      "responses": [
+        "AIIMS Nagpur is the All India Institute of Medical Sciences located in MIHAN, Nagpur, Maharashtra. It provides healthcare, medical education and research services."
+      ]
+    },
+
+    {
+      "tag": "address",
+      "patterns": [
+        "where is aiims",
+        "where is aiims nagpur",
+        "where is the hospital",
+        "aiims hospital where this",
+        "aiims hospital where is this",
+        "aiims kaha hai",
+        "aiims kaha located hai",
+        "hospital kaha hai",
+        "hospital kidhar hai",
+        "aiims address",
+        "hospital address",
+        "location of aiims"
+      ],
+      "responses": [
+        "AIIMS Nagpur is located at Plot No. 2, Sector-20, MIHAN, Nagpur, Maharashtra.",
+        "The AIIMS Nagpur campus is located in MIHAN, Nagpur, Maharashtra. The address is Plot No. 2, Sector-20, MIHAN, Nagpur."
+      ]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "aiims contact number",
+        "aiims phone number",
+        "hospital phone number",
+        "hospital contact",
+        "contact aiims",
+        "aiims helpline",
+        "helpline number",
+        "phone number"
+      ],
+      "responses": [
+        "AIIMS Nagpur official helpline: 9404044944. IPD Control Room: 0712-2352078 / 0712-2352030. Please verify current contact details from the official AIIMS Nagpur website."
+      ]
+    },
+
+    {
+      "tag": "emergency",
+      "patterns": [
+        "emergency",
+        "aiims emergency",
+        "hospital emergency",
+        "emergency timing",
+        "is emergency open",
+        "emergency service",
+        "accident",
+        "urgent medical help"
+      ],
+      "responses": [
+        "AIIMS Nagpur Trauma and Emergency services are available 24×7. If you have a serious or life-threatening situation, seek emergency medical care immediately.",
+        "The AIIMS Nagpur Trauma and Emergency service is available 24×7. For an emergency, do not wait for a routine OPD appointment."
+      ]
+    },
+
+    {
+      "tag": "opd",
+      "patterns": [
+        "what is opd",
+        "aiims opd",
+        "opd service",
+        "outpatient",
+        "out patient department",
+        "opd registration",
+        "how does opd work"
+      ],
+      "responses": [
+        "OPD means Outpatient Department. It is where patients visit for consultation without hospital admission. AIIMS Nagpur provides OPD services across different specialties."
+      ]
+    },
+
+    {
+      "tag": "timings",
+      "patterns": [
+        "aiims timing",
+        "hospital timing",
+        "opd timing",
+        "when is opd open",
+        "when does opd start",
+        "when does opd close",
+        "working hours",
+        "hospital hours"
+      ],
+      "responses": [
+        "AIIMS Nagpur General and Medicine OPD is listed as Monday to Friday, 9:00 AM–5:00 PM and Saturday, 9:00 AM–1:00 PM. Trauma and Emergency services are available 24×7."
+      ]
+    },
+
+    {
+      "tag": "departments",
+      "patterns": [
+        "show departments",
+        "which departments are available",
+        "aiims departments",
+        "hospital departments",
+        "medical departments",
+        "specialities",
+        "specialties",
+        "what departments are there"
+      ],
+      "responses": [
+        "AIIMS Nagpur has multiple departments including General Medicine, General Surgery, Cardiology, Dermatology, Neurology, Neurosurgery, Nephrology, Pulmonary Medicine, Gastroenterology, Urology, Psychiatry, Oncology, ENT, Radiodiagnosis and Trauma & Emergency."
+      ]
+    },
+
+    {
+      "tag": "cardiology",
+      "patterns": [
+        "heart department",
+        "heart doctor",
+        "cardiology",
+        "cardiologist",
+        "heart problem doctor",
+        "doctor for heart"
+      ],
+      "responses": [
+        "For heart-related problems, Cardiology is the relevant specialty. AIIMS Nagpur has a Cardiology department. For severe or sudden chest pain, seek emergency medical care immediately."
+      ]
+    },
+
+    {
+      "tag": "dermatology",
+      "patterns": [
+        "skin doctor",
+        "skin department",
+        "dermatology",
+        "dermatologist",
+        "skin problem",
+        "skin disease doctor"
+      ],
+      "responses": [
+        "For skin-related problems, Dermatology is the appropriate specialty. AIIMS Nagpur has a Dermatology department. A doctor should examine the condition before recommending treatment."
+      ]
+    },
+
+    {
+      "tag": "nephrology",
+      "patterns": [
+        "kidney doctor",
+        "kidney department",
+        "kidney problem",
+        "nephrology",
+        "doctor for kidney"
+      ],
+      "responses": [
+        "For kidney-related problems, Nephrology is the relevant specialty. AIIMS Nagpur has a Nephrology department. Please consult a qualified doctor before taking any medicine."
+      ]
+    },
+
+    {
+      "tag": "neurology",
+      "patterns": [
+        "brain doctor",
+        "nerve doctor",
+        "neurology",
+        "neurologist",
+        "neurosurgery",
+        "head nerve problem"
+      ],
+      "responses": [
+        "For neurological problems, Neurology is the relevant specialty. AIIMS Nagpur has Neurology services. Please consult a doctor for proper assessment."
+      ]
+    },
+
+    {
+      "tag": "gastroenterology",
+      "patterns": [
+        "stomach doctor",
+        "gastro doctor",
+        "gastroenterology",
+        "digestive problem",
+        "digestion problem"
+      ],
+      "responses": [
+        "For persistent or specific digestive and stomach-related problems, Gastroenterology may be appropriate. General Medicine can also provide an initial assessment and refer you if needed."
+      ]
+    },
+
+    {
+      "tag": "pulmonary",
+      "patterns": [
+        "lung doctor",
+        "lungs problem",
+        "pulmonary",
+        "breathing department",
+        "lung department"
+      ],
+      "responses": [
+        "For lung and respiratory problems, Pulmonary Medicine is the relevant specialty. If breathing difficulty is severe or worsening, seek emergency care immediately."
+      ]
+    },
+
+    {
+      "tag": "appointment",
+      "patterns": [
+        "book appointment",
+        "how to book appointment",
+        "aiims appointment",
+        "doctor appointment",
+        "opd appointment",
+        "schedule appointment",
+        "doctor se milna hai",
+        "i want to meet doctor",
+        "consult doctor"
+      ],
+      "responses": [
+        "For a doctor consultation, you can use the official AIIMS Nagpur OPD/registration facility. Please check the current appointment and registration procedure before visiting because availability can change."
+      ]
+    },
+
+    {
+      "tag": "pharmacy",
+      "patterns": [
+        "where is pharmacy",
+        "aiims pharmacy",
+        "pharmacy",
+        "medicine shop",
+        "medical shop",
+        "amrut pharmacy",
+        "where can i get medicine"
+      ],
+      "responses": [
+        "AIIMS Nagpur campus information lists an AMRUT Pharmacy. For the current pharmacy location and availability, please confirm with the hospital helpdesk."
+      ]
+    },
+
+    {
+      "tag": "symptom_fever",
+      "patterns": [
+        "i have fever",
+        "i have a fever",
+        "fever problem",
+        "fever hai",
+        "bukhar hai",
+        "what doctor for fever",
+        "fever ke liye doctor",
+        "mujhe fever hai"
+      ],
+      "responses": [
+        "For fever, please consult a doctor rather than taking medicine based on chatbot advice. General Medicine at AIIMS Nagpur can provide an initial assessment. The doctor can decide whether tests or medicines are required."
+      ]
+    },
+
+    {
+      "tag": "symptom_cold",
+      "patterns": [
+        "i have cold",
+        "i have cough",
+        "cold and cough",
+        "sardi hai",
+        "khansi hai",
+        "what doctor for cough"
+      ],
+      "responses": [
+        "For cough or cold symptoms, please consult a doctor rather than self-prescribing medicine. General Medicine can provide an initial assessment and guide you to another specialty if required."
+      ]
+    },
+
+    {
+      "tag": "symptom_chest",
+      "patterns": [
+        "i have chest pain",
+        "chest pain",
+        "heart pain",
+        "heart problem",
+        "my chest hurts"
+      ],
+      "responses": [
+        "Chest pain can require urgent medical assessment. If the pain is severe, sudden or worsening, seek emergency medical care immediately. AIIMS Nagpur Trauma and Emergency services are available 24×7. This chatbot does not diagnose or prescribe medicines."
+      ]
+    },
+
+    {
+      "tag": "symptom_breathing",
+      "patterns": [
+        "breathing problem",
+        "difficulty breathing",
+        "shortness of breath",
+        "i cannot breathe properly",
+        "saans lene mein problem"
+      ],
+      "responses": [
+        "Breathing difficulty may require prompt medical assessment. If it is severe or worsening, seek emergency care immediately. AIIMS Nagpur Trauma and Emergency services are available 24×7."
+      ]
+    },
+
+    {
+      "tag": "symptom_stomach",
+      "patterns": [
+        "stomach pain",
+        "pet dard",
+        "abdominal pain",
+        "stomach problem",
+        "pain in stomach"
+      ],
+      "responses": [
+        "For stomach or abdominal symptoms, please consult a doctor. General Medicine can provide an initial assessment and refer you to Gastroenterology if required. The chatbot does not prescribe medicines."
+      ]
+    },
+
+    {
+      "tag": "symptom_headache",
+      "patterns": [
+        "headache",
+        "head pain",
+        "migraine",
+        "sir dard",
+        "my head hurts"
+      ],
+      "responses": [
+        "For recurring or concerning headaches, please consult a doctor for proper assessment. General Medicine can provide an initial evaluation and refer you to Neurology if required."
+      ]
+    },
+
+    {
+      "tag": "symptom_dental",
+      "patterns": [
+        "tooth pain",
+        "toothache",
+        "dental problem",
+        "teeth problem",
+        "tooth doctor"
+      ],
+      "responses": [
+        "For dental problems, please seek consultation from an appropriate dental service. A qualified dental professional should examine the problem before recommending treatment."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thankyou",
+        "thank"
+      ],
+      "responses": [
+        "You're welcome! 😊",
+        "You're welcome. I'm happy to help."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "exit"
+      ],
+      "responses": [
+        "Goodbye! Thank you for using AIIMS Nagpur Hospital Assistant.",
+        "Goodbye! Take care."
+      ]
+    }
+
+  ]
+}
